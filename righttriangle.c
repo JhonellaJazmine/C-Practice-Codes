@@ -3,9 +3,6 @@
 
 int main()
 {
-    //declaration of variables
-    int n,sum=0;
-
     for(int i=0;i<4;i++){             //loop for printing right angle triangle
         for(int j=0;j<i+1;j++)        //loop for printing asterisk in a line
         {
