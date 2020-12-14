@@ -17,7 +17,7 @@ int main()
       sum+=num;                     //add user input to the value of sum
   }
 
-  average=sum/10;                   //compute the average of the 10 number inputs
+  average=(float)sum/10;                   //compute the average of the 10 number inputs
 
   printf("The sum of 10 numbers is : %d\n",sum);      //displays sum
   printf("The Average is : %f",average);            //displays average
